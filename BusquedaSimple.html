@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio CGI</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav>
+        <a href="BusquedaSimple.html">Búsqueda Simple</a>
+        <a href="BusquedaImagenes.html">Búsqueda Imagenes</a>
+        <a href="BusquedaAvanzada.html">Búsqueda Avanzada</a>
+    </nav>
+
+    <div class="contenedor-centro">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" class="buscador" placeholder="Buscar en Google">
+            <button type="submit" class="btn">Búsqueda en Google</button>
+        </form>
+    </div>
 </body>
 </html>
